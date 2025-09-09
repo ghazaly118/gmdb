@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 export function Moviecard(props) {
-  const {id,movie}=props
+  const {movie}=props
   const image=`https://image.tmdb.org/t/p/w500${movie.poster_path}`
   return (
      <div className="m-3 mx-auto max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700">
